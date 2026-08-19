@@ -1,12 +1,13 @@
 #include "callbacks.h"
+#include "types.h"
 
-void simple_function(int digit)
+void digit_function(int digit)
 {
-    //Report("Digit is d=%d", digit);
+    printf("Digit is d=%d", digit);
 }
 
-int complex_function(int digit, char letter)
+int digit_letter_function(int digit, char letter)
 {
-    //Report("Digit is d=%d and char is c=%c", digit, letter);
+    printf("Digit is d=%d and char is c=%c", digit, letter);
     return 0;
 }
