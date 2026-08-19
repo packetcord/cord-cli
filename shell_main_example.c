@@ -7,18 +7,19 @@
 int main(void)
 {
     radix_node *root_node;
-    root_node = new_radix_node( "dot", NULL );
+    root_node = new_radix_node("dot", NULL);
 
-    if ( radix_insert(root_node, "show configuration ip") == NULL )
+    if (radix_insert(root_node, "show configuration ip") == NULL)
         printf("Error!\n");
 
-    if ( radix_insert(root_node, "configure ip") == NULL )
+    if (radix_insert(root_node, "configure ip") == NULL)
         printf("Error!\n");
 
-    if ( radix_lookup(root_node, "show configuration ip") == NULL )
+    if (radix_lookup(root_node, "show configuration ip") == NULL)
         printf("Error!\n");
 
-    if ( root_node->neighbor_arr[2] == NULL ) printf("\r\nFree slot found");
+    if (root_node->neighbor_arr[2] == NULL)
+        printf("\r\nFree slot found");
 
     return 0;
 }

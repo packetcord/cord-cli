@@ -2,5 +2,4 @@
 #define GLOBALS_H_INCLUDED
 
 
-
 #endif // GLOBALS_H_INCLUDED

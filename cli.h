@@ -2,6 +2,4 @@
 #define CLI_H_INCLUDED
 
 
-
-
 #endif // CLI_H_INCLUDED

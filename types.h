@@ -19,8 +19,8 @@ typedef unsigned char String[STRING_LEN];
 
 /* Function pointers - naming by parameters used */
 // any callback typedef ...
-typedef void (*FunctionPtrType_Int)       (int);
-typedef int  (*FunctionPtrType_IntChar)   (int, char);
+typedef void (*FunctionPtrType_Int)(int);
+typedef int (*FunctionPtrType_IntChar)(int, char);
 /* and so on */
 
 
